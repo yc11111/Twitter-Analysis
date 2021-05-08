@@ -61,7 +61,7 @@ def main():
 
     auth = tweepy.OAuthHandler( consumer_key , consumer_secret )
     auth.set_access_token( access_token , access_token_secret )
-    api = tweepy.API(auth)
+    api = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
     ################################################################
     
     df = pd.DataFrame(columns=["Date","User","IsVerified","Tweet","Likes","RT",'User_location'])
