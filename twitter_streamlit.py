@@ -221,12 +221,16 @@ def main():
         
         
     st.sidebar.header("About App")
-    st.sidebar.info("A Twitter Sentiment analysis Project which will scrap twitter for the topic selected by the user. The extracted tweets will then be used to determine the Sentiments of those tweets. \
-                    The different Visualizations will help us get a feel of the overall mood of the people on Twitter regarding the topic we select.")
+    st.sidebar.info("""A Twitter Sentiment analysis Project which will scrap tweets for the topic selected by the user.Sentiment Analysis is a technique widely used 
+                    in text mining. Twitter Sentiment Analysis, therefore means, using advanced text mining techniques to analyze the sentiment of the text (here, tweet)
+                    in the form of positive, negative and neutral. It is also known as Opinion Mining, is primarily for analyzing conversations, opinions, and sharing of 
+                    views (all in the form oftweets) for deciding business strategy, political analysis, and also for assessing public actions. The extracted tweets will
+                    then be used to determine the Sentiments of those tweets.The different types of Visualizations will help us analyze opinions of the
+                    people on Twitter regarding the topic they select.""")
     st.sidebar.text("Built with Streamlit")
     
     st.sidebar.header("For Any Queries/Suggestions Please reach out at :")
-    st.sidebar.info("darekarabhishek@gmail.com")
+    st.sidebar.info("7878654569")
     #st.sidebar.subheader("Scatter-plot setup")
     #box1 = st.sidebar.selectbox(label= "X axis", options = numeric_columns)
     #box2 = st.sidebar.selectbox(label="Y axis", options=numeric_columns)
