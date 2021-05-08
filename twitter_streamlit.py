@@ -128,7 +128,7 @@ def main():
         
         # Call the function to extract the data. pass the topic and filename you want the data to be stored in.
         with st.spinner("Please wait, Tweets are being extracted"):
-            get_tweets(Topic , Count=500)
+            get_tweets(Topic , Count=1000)
         st.success('Tweets have been Extracted !!!!')    
            
     
